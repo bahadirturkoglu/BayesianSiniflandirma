@@ -46,6 +46,9 @@ Nitelikler birbirlerinden bağımsızdır; yani bir nitelik değeri diğer bir n
 
 == 5) Python ile Bayesian Sınıflandırmanın Görüntüye Uygulanması
 
+[source,python]
+---------------------------------------------------------------------
+
 from PIL import Image           
 #PIL modülünden IMAGE kütüphanesini uygulamamıza dahil ediyoruz.
 
@@ -185,6 +188,8 @@ image.save("bayes.bmp")
 
 #Görüntünün son hali proje klasörüne kaydedilir.
 
+---------------------------------------------------------------------
+
 == 6)  Sonuçlar
 
 
@@ -195,6 +200,7 @@ image::1.png[resim 1]
 2.Bayes Sınıflandırma Sonrasındaki Görüntü
 
 image::2.png[resim 2]
+
 
 == 7)Referanslar
 . http://web.itu.edu.tr/~sgunduz/courses/verimaden/slides/d3.pdf
